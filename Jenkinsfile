@@ -46,11 +46,11 @@ pipeline {
                 }
             }
         }
-        stage('Branche') {
+        stage('Branch') {
             agent any
             steps {
-                sh 'echo "fjc_test"'
-            }
+                echo 'fjc_test'
+            }  
         }
     }
 }
