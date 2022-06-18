@@ -46,5 +46,11 @@ pipeline {
                 }
             }
         }
+        stage('Branche') {
+            agent any
+            steps {
+                sh 'echo "fjc_test"'
+            }
+        }
     }
 }
