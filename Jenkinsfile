@@ -48,7 +48,7 @@ pipeline {
         stage('Branch') {
             agent any
             steps {
-                echo 'fjc_test'
+                echo 'fjc_test build auto'
             }  
         }
     }
